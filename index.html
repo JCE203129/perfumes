@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de perfumes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Perfume Delux</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nuestros Perfumes</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="images/perfume1.jpg" alt="Perfume 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="images/perfume2.jpg" alt="Perfume 2">
+            </div>
+            <div class="carousel-slide">
+                <img src="images/permufe3.jpg" alt="Perfume 3">
+            </div>
+        </div>
+    
+        <!-- Botones de navegación del carrusel -->
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </section>
+    
+    <script src="carousel.js"></script>
+    
+
+    <section class="hero">
+        <h2>Encuentra tu fragancia perfecta</h2>
+        <p>Explora nuestra colección de perfumes de lujo.</p>
+    </section>
+
+    <section class="perfume-list">
+        <h2>Nuestra Colección</h2>
+        <div class="perfume">
+            <img src="images/elegante.jpg" alt="Perfume Elegante">
+            <h3>Perfume Elegante</h3>
+            <p>Una fragancia sofisticada con notas florales y amaderadas.</p>
+        </div>
+
+        <div class="perfume">
+            <img src="images/fresco.jpg" alt="Perfume Fresco">
+            <h3>Perfume Fresco</h3>
+            <p>Una esencia refrescante y ligera, perfecta para el día a día.</p>
+        </div>
+
+        <div class="perfume">
+            <img src="images/intenso.jpg" alt="Perfume Intenso">
+            <h3>Perfume Intenso</h3>
+            <p>Una fragancia intensa y duradera con notas de especias.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Perfume Delux. Todos los derechos reservados.</p>
+    </footer>
+    
+</body>
+</html>
